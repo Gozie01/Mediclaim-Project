@@ -1,0 +1,18 @@
+{
+  "demoPatient": "0x973B368ff10500168b81d744B4f35c6f42de91c2",
+  "demoHospital": "0x973B368ff10500168b81d744B4f35c6f42de91c2",
+  "demoInsurer": "0x973B368ff10500168b81d744B4f35c6f42de91c2",
+  "demoDoctor": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8",
+  "demoNurse": "0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC",
+  "demoBilling": "0x90F79bf6EB2c4f870365E785982E1f101E93b906",
+  "demoPolicyHash": "0x391c2e06851914e453e9e7ec341c14129b26b2ce3a31958f033326bd003c0427",
+  "contracts": {
+    "ZKConsentVerifier": "0x6A36Ee5E14524Fa5599847ad12eca7d03D66C015",
+    "HospitalRegistry": "0xD02B2Bcd7389A86BC107B2b051c741E37f0963d5",
+    "PatientProfile": "0x975E62Cb81B0a51218D9c2078D65fb4A1Bd38790",
+    "MedicalRecord": "0xe21beb671c9d52DfA3871eb0f370B5999183a09e",
+    "InsurancePolicy": "0x679bEDDF7cd77D812121421520E83f94715B0d02",
+    "MultiOracleConsensus": "0x7c05dac418A17291f4C3d661Ddce4270694DA363",
+    "MediClaim": "0xc56Abe0629d263d1A74e047cFcf221209566509F"
+  }
+}

@@ -1,0 +1,724 @@
+{
+  "timestamp": "2026-06-02T14:00:23.891Z",
+  "network": "PureChain (simulated via Hardhat)",
+  "totalClaims": 100,
+  "batchSize": 10,
+  "passed": 100,
+  "failed": 0,
+  "totalTimeSeconds": 0.407,
+  "throughputTPS": 245.7,
+  "latencyMs": {
+    "avg": 36,
+    "min": 31,
+    "max": 41
+  },
+  "avgGasPerClaim": 527115,
+  "literatureComparison": {
+    "source": "PMC11111748 (ncbi.nlm.nih.gov)",
+    "withoutIPFS_TPS": 12,
+    "withZKRollupIPFS_TPS": "~1500 tx per batch",
+    "purChain_TPS": 245.7
+  },
+  "results": [
+    {
+      "idx": 0,
+      "status": 4,
+      "latencyMs": 37,
+      "gasUsed": "577886",
+      "success": true
+    },
+    {
+      "idx": 1,
+      "status": 4,
+      "latencyMs": 40,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 2,
+      "status": 4,
+      "latencyMs": 38,
+      "gasUsed": "526562",
+      "success": true
+    },
+    {
+      "idx": 3,
+      "status": 4,
+      "latencyMs": 38,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 4,
+      "status": 4,
+      "latencyMs": 39,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 5,
+      "status": 4,
+      "latencyMs": 38,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 6,
+      "status": 4,
+      "latencyMs": 39,
+      "gasUsed": "526562",
+      "success": true
+    },
+    {
+      "idx": 7,
+      "status": 4,
+      "latencyMs": 38,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 8,
+      "status": 4,
+      "latencyMs": 38,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 9,
+      "status": 4,
+      "latencyMs": 37,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 10,
+      "status": 4,
+      "latencyMs": 34,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 11,
+      "status": 4,
+      "latencyMs": 35,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 12,
+      "status": 4,
+      "latencyMs": 36,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 13,
+      "status": 4,
+      "latencyMs": 34,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 14,
+      "status": 4,
+      "latencyMs": 34,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 15,
+      "status": 4,
+      "latencyMs": 35,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 16,
+      "status": 4,
+      "latencyMs": 36,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 17,
+      "status": 4,
+      "latencyMs": 36,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 18,
+      "status": 4,
+      "latencyMs": 35,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 19,
+      "status": 4,
+      "latencyMs": 36,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 20,
+      "status": 4,
+      "latencyMs": 32,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 21,
+      "status": 4,
+      "latencyMs": 31,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 22,
+      "status": 4,
+      "latencyMs": 32,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 23,
+      "status": 4,
+      "latencyMs": 33,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 24,
+      "status": 4,
+      "latencyMs": 32,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 25,
+      "status": 4,
+      "latencyMs": 32,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 26,
+      "status": 4,
+      "latencyMs": 33,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 27,
+      "status": 4,
+      "latencyMs": 32,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 28,
+      "status": 4,
+      "latencyMs": 32,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 29,
+      "status": 4,
+      "latencyMs": 33,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 30,
+      "status": 4,
+      "latencyMs": 35,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 31,
+      "status": 4,
+      "latencyMs": 36,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 32,
+      "status": 4,
+      "latencyMs": 36,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 33,
+      "status": 4,
+      "latencyMs": 38,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 34,
+      "status": 4,
+      "latencyMs": 36,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 35,
+      "status": 4,
+      "latencyMs": 37,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 36,
+      "status": 4,
+      "latencyMs": 37,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 37,
+      "status": 4,
+      "latencyMs": 37,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 38,
+      "status": 4,
+      "latencyMs": 38,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 39,
+      "status": 4,
+      "latencyMs": 38,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 40,
+      "status": 4,
+      "latencyMs": 34,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 41,
+      "status": 4,
+      "latencyMs": 35,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 42,
+      "status": 4,
+      "latencyMs": 34,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 43,
+      "status": 4,
+      "latencyMs": 36,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 44,
+      "status": 4,
+      "latencyMs": 35,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 45,
+      "status": 4,
+      "latencyMs": 37,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 46,
+      "status": 4,
+      "latencyMs": 35,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 47,
+      "status": 4,
+      "latencyMs": 34,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 48,
+      "status": 4,
+      "latencyMs": 36,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 49,
+      "status": 4,
+      "latencyMs": 35,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 50,
+      "status": 4,
+      "latencyMs": 35,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 51,
+      "status": 4,
+      "latencyMs": 38,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 52,
+      "status": 4,
+      "latencyMs": 38,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 53,
+      "status": 4,
+      "latencyMs": 37,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 54,
+      "status": 4,
+      "latencyMs": 36,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 55,
+      "status": 4,
+      "latencyMs": 37,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 56,
+      "status": 4,
+      "latencyMs": 37,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 57,
+      "status": 4,
+      "latencyMs": 35,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 58,
+      "status": 4,
+      "latencyMs": 36,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 59,
+      "status": 4,
+      "latencyMs": 35,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 60,
+      "status": 4,
+      "latencyMs": 34,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 61,
+      "status": 4,
+      "latencyMs": 35,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 62,
+      "status": 4,
+      "latencyMs": 34,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 63,
+      "status": 4,
+      "latencyMs": 36,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 64,
+      "status": 4,
+      "latencyMs": 36,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 65,
+      "status": 4,
+      "latencyMs": 35,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 66,
+      "status": 4,
+      "latencyMs": 38,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 67,
+      "status": 4,
+      "latencyMs": 36,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 68,
+      "status": 4,
+      "latencyMs": 36,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 69,
+      "status": 4,
+      "latencyMs": 35,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 70,
+      "status": 4,
+      "latencyMs": 38,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 71,
+      "status": 4,
+      "latencyMs": 40,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 72,
+      "status": 4,
+      "latencyMs": 39,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 73,
+      "status": 4,
+      "latencyMs": 38,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 74,
+      "status": 4,
+      "latencyMs": 39,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 75,
+      "status": 4,
+      "latencyMs": 39,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 76,
+      "status": 4,
+      "latencyMs": 40,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 77,
+      "status": 4,
+      "latencyMs": 40,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 78,
+      "status": 4,
+      "latencyMs": 41,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 79,
+      "status": 4,
+      "latencyMs": 41,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 80,
+      "status": 4,
+      "latencyMs": 32,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 81,
+      "status": 4,
+      "latencyMs": 32,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 82,
+      "status": 4,
+      "latencyMs": 35,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 83,
+      "status": 4,
+      "latencyMs": 33,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 84,
+      "status": 4,
+      "latencyMs": 34,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 85,
+      "status": 4,
+      "latencyMs": 34,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 86,
+      "status": 4,
+      "latencyMs": 33,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 87,
+      "status": 4,
+      "latencyMs": 34,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 88,
+      "status": 4,
+      "latencyMs": 33,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 89,
+      "status": 4,
+      "latencyMs": 34,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 90,
+      "status": 4,
+      "latencyMs": 37,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 91,
+      "status": 4,
+      "latencyMs": 37,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 92,
+      "status": 4,
+      "latencyMs": 36,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 93,
+      "status": 4,
+      "latencyMs": 37,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 94,
+      "status": 4,
+      "latencyMs": 36,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 95,
+      "status": 4,
+      "latencyMs": 38,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 96,
+      "status": 4,
+      "latencyMs": 37,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 97,
+      "status": 4,
+      "latencyMs": 37,
+      "gasUsed": "526610",
+      "success": true
+    },
+    {
+      "idx": 98,
+      "status": 4,
+      "latencyMs": 38,
+      "gasUsed": "526586",
+      "success": true
+    },
+    {
+      "idx": 99,
+      "status": 4,
+      "latencyMs": 38,
+      "gasUsed": "526610",
+      "success": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "scenario": 1,
+      "name": "Account Creation",
+      "status": "PASS"
+    },
+    {
+      "scenario": 2,
+      "name": "Granular Consent",
+      "status": "PASS"
+    },
+    {
+      "scenario": 3,
+      "name": "RBAC Records",
+      "status": "PASS"
+    },
+    {
+      "scenario": 4,
+      "name": "Multi-Hospital Claim",
+      "status": "PASS"
+    },
+    {
+      "scenario": 5,
+      "name": "Patient Rejects Claim",
+      "status": "PASS"
+    },
+    {
+      "scenario": 6,
+      "name": "Revoke + GDPR",
+      "status": "PASS"
+    }
+  ],
+  "timestamp": "2026-06-03T04:43:59.882Z",
+  "network": "PureChain",
+  "stats": {
+    "drafted": "2",
+    "approvedByPatient": "1",
+    "rejectedByPatient": "1"
+  }
+}

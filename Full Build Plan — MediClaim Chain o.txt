@@ -1,0 +1,114 @@
+Full Build Plan — MediClaim Chain on PureChain
+Network Config
+
+RPC:      https://purechainnode.com
+Chain ID: 900520900520
+Since PureChain is a permissioned chain, Chainlink nodes won't be present. We will build a custom 3-node oracle system — this is actually a stronger research contribution than using Chainlink off-the-shelf.
+
+Project Structure
+
+MediClaim/
+├── contracts/                    # Solidity smart contracts
+│   ├── PatientProfile.sol        # Identity + ZK consent (Gap 3, 8)
+│   ├── InsurancePolicy.sol       # Policy registry
+│   ├── MediClaim.sol             # Claims engine + payment
+│   ├── MultiOracleConsensus.sol  # 3-node oracle (Gap 5)
+│   └── ZKConsentVerifier.sol     # circom ZK verifier (Gap 3)
+├── circuits/                     # circom ZK circuits
+│   └── consent_proof.circom
+├── scripts/
+│   ├── deploy.js                 # Deploy to PureChain
+│   ├── demo_scenarios.js         # 5 test claim scenarios for professor
+│   └── load_test.js              # 1,000 concurrent claims (Gap 2)
+├── oracle/                       # Off-chain oracle nodes (Node.js)
+│   ├── node1.js
+│   ├── node2.js
+│   └── node3.js
+├── ipfs/
+│   └── uploader.js               # Pinata IPFS upload helper
+├── mobile/                       # React Native + Expo app
+│   ├── app/
+│   │   ├── (tabs)/
+│   │   │   ├── patient.tsx       # Patient role screen
+│   │   │   ├── hospital.tsx      # Hospital role screen
+│   │   │   └── insurer.tsx       # Insurer role screen
+│   │   └── claim/[id].tsx        # Claim tracking screen
+│   ├── hooks/
+│   │   └── useContract.ts        # ethers.js contract hooks
+│   └── constants/
+│       └── contracts.ts          # ABI + PureChain addresses
+├── benchmarks/
+│   └── gas_report.js             # Gas cost table (Gap 1)
+├── hardhat.config.js             # PureChain network
+├── .env                          # Private keys, Pinata keys
+└── paper/                        # Journal paper (LaTeX)
+    └── mediclaim_journal.tex
+8 Gaps → What We Build to Close Each
+#	Gap	Solution We Build
+1	Gas costs unvalidated	Automated gas benchmark script; table of deploy + per-claim costs on PureChain
+2	No production-scale test	load_test.js — 1,000 claims in parallel, measure TPS + latency
+3	ZK-proof not applied to claims	circom circuit for consent; ZKConsentVerifier.sol in PatientProfile
+4	GDPR/HIPAA erasure conflict	revokeAndErase() function — deletes IPFS pin, writes tombstone hash on-chain
+5	Oracle trust / single point of failure	MultiOracleConsensus.sol — 3 independent Node.js oracle nodes, 2-of-3 majority
+6	Cross-chain interoperability	FHIR R4 Patient/Claim resource schema in all contract data fields
+7	No AI/ML fraud detection	fraudFlag field in MediClaim.sol writable by oracle; off-chain ML model (isolation forest) posts anomaly scores
+8	Non-standard identity/consent	FHIR-aligned PatientProfile with DID (Decentralized Identifier) support
+Five Test Scenarios for Professor Demo
+Happy Path — Patient consents → Hospital submits claim → Oracle validates codes → Auto-approved + paid in seconds
+Fraud Detection — Hospital submits claim with invalid ICD code → Oracle rejects → Claim denied, fraud event emitted
+Policy Expired — Patient's policy lapsed → InsurancePolicy.isActive() returns false → Claim auto-rejected
+GDPR Erasure — Patient invokes right-to-erasure → IPFS record deleted, on-chain tombstone written, audit trail preserved
+Oracle Disagreement — 1 of 3 oracle nodes submits wrong result → 2-of-3 consensus overrides → correct outcome, bad node flagged
+Mobile App — 3 Role Screens
+Role	Key Actions
+Patient	Register identity, upload medical history to IPFS, grant/revoke consent, track claim status in real time
+Hospital	Submit claim with IPFS treatment hash, view claim status, receive payment notification
+Insurer	Register policies, view active claims, see oracle validation results, flag fraud
+Journal Paper Outline (Q1 — IEEE JBHI / Computers in Biology and Medicine)
+
+1. Abstract
+2. Introduction — $25.7B problem, 8 identified gaps
+3. Related Work — cite 24 sources from our research, show what each leaves unsolved
+4. System Architecture — 5-layer stack, hybrid IPFS model, ZK layer
+5. Smart Contract Design — 3 core + 2 gap-closing contracts
+6. Multi-Oracle Consensus Protocol — novel contribution
+7. ZK-Consent Protocol — novel contribution
+8. Implementation — PureChain deployment, mobile app
+9. Evaluation
+   - Gas costs (table)
+   - TPS benchmark (1,000 claims load test)
+   - Latency vs. Ethereum/Hyperledger (comparison table from literature)
+   - ZK proof generation time
+   - Oracle consensus latency
+10. Security Analysis — RBAC, ZK, multi-sig, GDPR compliance
+11. Conclusion + Future Work (cross-chain multi-hospital)
+Build Order (Phase by Phase)
+Phase 1 — Smart Contracts + PureChain deployment ← Start here
+
+Hardhat config for PureChain
+3 core contracts + MultiOracleConsensus.sol
+Deploy scripts + demo scenario scripts
+Phase 2 — Oracle Nodes
+
+3 Node.js oracle keeper processes
+ICD/CPT code validation logic
+2-of-3 consensus posting to chain
+Phase 3 — ZK Layer
+
+circom consent circuit
+snarkjs proof generation
+ZKConsentVerifier.sol integration
+Phase 4 — Mobile App
+
+Expo + ethers.js setup
+3 role screens
+WalletConnect on PureChain
+Phase 5 — Benchmarks + Demo
+
+Load test scripts
+Gas cost table
+Record demo video for professor
+Phase 6 — Journal Paper
+
+LaTeX template (IEEE or Elsevier)
+Write from implementation results
