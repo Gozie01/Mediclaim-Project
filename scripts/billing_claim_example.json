@@ -1,0 +1,13 @@
+{
+  "icdCode": "J18.9",
+  "cptCode": "99213",
+  "treatmentSummary": "Synthetic outpatient visit",
+  "fhirClaimId": "synthetic-claim-101",
+  "treatmentCid": "synthetic-treatment-101",
+  "billingLine": {
+    "serviceDate": "2026-11-12",
+    "encounterId": "encounter-101",
+    "lineId": "line-1",
+    "action": "original"
+  }
+}
