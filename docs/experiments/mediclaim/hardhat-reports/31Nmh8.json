@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "scenario": "normal",
+  "network": "local Hardhat JSON-RPC",
+  "chainId": "31337",
+  "chainPid": 41584,
+  "oraclePids": [
+    16388,
+    40932,
+    40268
+  ],
+  "screeningPid": 448,
+  "claimId": "0x3c58e67961efdffee6b620facddb185b91f915bfae138d7400f6ad64a810ae9a",
+  "requestId": "0xad8d8bc6442e30482ab676d6a14fbfba1261d8c4c9cb79f0b5c39de9fba1f9ec",
+  "finalState": "Paid",
+  "proofApprovalTx": "0x7e992ee6c1f7cb69e5c07fdbdbbdc769edcd2cc77d2b7a53970d3e16b4451ab6",
+  "approvingVotes": [
+    {
+      "node": "0xCb6A2284866A2Eb3EC6fc27AB73a5567D18a2131",
+      "transaction": "0x8dd66e982e61249df0fa2f50a2343c8227d954b08eb9449089807e3d114ec31d"
+    },
+    {
+      "node": "0xf25fd2d7c6D946a4E0093df75fB85F03AC6519b5",
+      "transaction": "0x80d34f678329b3c1cfdf3a14425ab8f7520e8d00c626ad40730b77d2bb61ed73"
+    }
+  ],
+  "screeningTx": "0x2d6ffd01d73c9c8c66bdbfc5a643157dc2728f14e7c0ae1a40f5b0d2ab76583d",
+  "score": "0",
+  "fixtureThreshold": 100,
+  "screeningMode": "local-fixture",
+  "timingMs": {
+    "approvalSubmissionToObservedReceipt": 117.7297,
+    "approvalSubmissionToObservedPaymentReceipt": 818.8722
+  },
+  "testClockAdvanced": false,
+  "paymentTx": "0x80d34f678329b3c1cfdf3a14425ab8f7520e8d00c626ad40730b77d2bb61ed73",
+  "amount": "500"
+}

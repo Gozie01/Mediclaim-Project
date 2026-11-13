@@ -21,15 +21,18 @@ estimate of detection accuracy or evidence of payment blocking on PureChain.
 ## Local Hardhat settlement checks
 
 The original operator reported 23 passing tests with the consent fixture and
-the following separate integration runs from the revision workspace. The
-original JSON reports remain in that workspace.
+the four integration runs below. Each report records two approving oracle
+votes. The three timeout runs recorded zero score events and zero payment
+events, with policy funds unchanged at 500 base units. The review reports
+identify their scenarios and record settlement outcomes. The worker reason
+codes are documented separately in the pilot records.
 
 | Local report ID | Reported outcome |
 | --- | --- |
-| `31Nmh8` | A passing fixture score and two oracle votes led to payment. |
-| `vw0rcu` | The screening worker was offline. The claim timed out without payment. |
-| `qQoy64` | The worker referred a reused claim reference for review and withheld its score. The claim timed out without payment. |
-| `sKTfy4` | The worker referred a repeated billing line with distinct references for review and withheld its score. The claim timed out without payment. |
+| [31Nmh8](hardhat-reports/31Nmh8.json) | A passing fixture score and two oracle votes led to payment. |
+| [vw0rcu](hardhat-reports/vw0rcu.json) | The screening worker was offline. The claim timed out without payment. |
+| [qQoy64](hardhat-reports/qQoy64.json) | The worker referred a reused claim reference for review and withheld its score. The claim timed out without payment. |
+| [sKTfy4](hardhat-reports/sKTfy4.json) | The worker referred a repeated billing line with distinct references for review and withheld its score. The claim timed out without payment. |
 
 ## Run the screening checks
 

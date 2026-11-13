@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "scenario": "screening-offline",
+  "network": "local Hardhat JSON-RPC",
+  "chainId": "31337",
+  "testClockAdvanced": true,
+  "screeningPid": null,
+  "oraclePids": [
+    39664,
+    7968,
+    16504
+  ],
+  "claimId": "0x681bbb8229fefc41bf6868aef43cb14edf9c30f041730d993be405e5c802c80d",
+  "requestId": "0x26d99edd17e5ccca32d42bfa4e7b2f299a3cc16b600d05e437c51d9a50bfff0d",
+  "finalState": "ScreeningTimedOut",
+  "proofApprovalTx": "0x6d56a9deab293002193c0992d9d25970936dd5a97b12af9cf0e1c0bb36e8849f",
+  "timeoutTx": "0xc29e6db7dd15bd488131a04c6f7f3e82522b2e23444dbf5b032116fad4d394f0",
+  "approvingVotes": [
+    {
+      "node": "0xa76969626c0Bc49a89B1294644eea5Ba6De27F73",
+      "transaction": "0xe521eabe75268376b5f55e7d96c9f37b34b7422629ac4e2270c3630512e0193c"
+    },
+    {
+      "node": "0xd6771951e39faAbe13669abD426F6eEebB2Ae839",
+      "transaction": "0x4e3b594df37a4c09c6dfdd91f320f6d56dc6b3cab061e841d67474e95ba924ba"
+    }
+  ],
+  "scoreEvents": 0,
+  "paymentEvents": 0,
+  "policyFundsBefore": "500",
+  "policyFundsAfter": "500"
+}
