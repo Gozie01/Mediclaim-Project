@@ -1,0 +1,2 @@
+{"claimId":"0x11cf7c30ef94ba36cb5180908da07d5692b245fcd4b95ff5573306dd0857ff38","version":"claim-screening-v1","decision":"INSUFFICIENT_HISTORY","reasons":[],"historyCount":0,"referenceMatch":0,"billingEvidence":"SUBMITTED","replay":false}
+{"claimId":"0x1c984352a626ce1dd9345590d5a22bc768dc86c5e765fbd2478a2a61b7247b89","version":"claim-screening-v1","decision":"REVIEW","reasons":["REPEATED_BILLING_LINE"],"historyCount":1,"referenceMatch":0,"billingEvidence":"SUBMITTED","replay":false}
