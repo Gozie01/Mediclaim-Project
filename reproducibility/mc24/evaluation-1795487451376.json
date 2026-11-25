@@ -1,0 +1,5841 @@
+{
+  "mode": "evaluation",
+  "node": "v24.15.0",
+  "manifestSHA256": "e9b7afd93f1f006eec369c5b52a1a5bd312f5a28c01adda0b8b2608c13363d11",
+  "records": [
+    {
+      "cohort": "primary",
+      "seed": 31001,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          294,
+          185,
+          294
+        ],
+        "legitimateRepeat": [
+          379,
+          27,
+          7
+        ],
+        "negative": [
+          7026,
+          55,
+          68
+        ],
+        "positive": [
+          774,
+          359,
+          505
+        ],
+        "duplicate": [
+          294,
+          185,
+          294
+        ],
+        "inflated": [
+          272,
+          77,
+          100
+        ],
+        "combined": [
+          208,
+          97,
+          111
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31001,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          294,
+          185,
+          229
+        ],
+        "legitimateRepeat": [
+          379,
+          27,
+          20
+        ],
+        "negative": [
+          7026,
+          55,
+          342
+        ],
+        "positive": [
+          774,
+          359,
+          450
+        ],
+        "duplicate": [
+          294,
+          185,
+          229
+        ],
+        "inflated": [
+          272,
+          77,
+          110
+        ],
+        "combined": [
+          208,
+          97,
+          111
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31001,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          294,
+          185,
+          167
+        ],
+        "legitimateRepeat": [
+          379,
+          27,
+          43
+        ],
+        "negative": [
+          7026,
+          55,
+          619
+        ],
+        "positive": [
+          774,
+          359,
+          408
+        ],
+        "duplicate": [
+          294,
+          185,
+          167
+        ],
+        "inflated": [
+          272,
+          77,
+          121
+        ],
+        "combined": [
+          208,
+          97,
+          120
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31002,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          269,
+          154,
+          269
+        ],
+        "legitimateRepeat": [
+          414,
+          24,
+          11
+        ],
+        "negative": [
+          7031,
+          45,
+          63
+        ],
+        "positive": [
+          769,
+          345,
+          487
+        ],
+        "duplicate": [
+          269,
+          154,
+          269
+        ],
+        "inflated": [
+          272,
+          80,
+          105
+        ],
+        "combined": [
+          228,
+          111,
+          113
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31002,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          269,
+          154,
+          198
+        ],
+        "legitimateRepeat": [
+          414,
+          24,
+          32
+        ],
+        "negative": [
+          7031,
+          45,
+          358
+        ],
+        "positive": [
+          769,
+          345,
+          422
+        ],
+        "duplicate": [
+          269,
+          154,
+          198
+        ],
+        "inflated": [
+          272,
+          80,
+          107
+        ],
+        "combined": [
+          228,
+          111,
+          117
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31002,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          269,
+          154,
+          149
+        ],
+        "legitimateRepeat": [
+          414,
+          24,
+          49
+        ],
+        "negative": [
+          7031,
+          45,
+          652
+        ],
+        "positive": [
+          769,
+          345,
+          388
+        ],
+        "duplicate": [
+          269,
+          154,
+          149
+        ],
+        "inflated": [
+          272,
+          80,
+          119
+        ],
+        "combined": [
+          228,
+          111,
+          120
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31003,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          268,
+          168,
+          268
+        ],
+        "legitimateRepeat": [
+          385,
+          36,
+          11
+        ],
+        "negative": [
+          7025,
+          60,
+          65
+        ],
+        "positive": [
+          775,
+          341,
+          471
+        ],
+        "duplicate": [
+          268,
+          168,
+          268
+        ],
+        "inflated": [
+          280,
+          77,
+          95
+        ],
+        "combined": [
+          227,
+          96,
+          108
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31003,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          268,
+          168,
+          193
+        ],
+        "legitimateRepeat": [
+          385,
+          36,
+          35
+        ],
+        "negative": [
+          7025,
+          60,
+          337
+        ],
+        "positive": [
+          775,
+          341,
+          409
+        ],
+        "duplicate": [
+          268,
+          168,
+          193
+        ],
+        "inflated": [
+          280,
+          77,
+          100
+        ],
+        "combined": [
+          227,
+          96,
+          116
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31003,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          268,
+          168,
+          142
+        ],
+        "legitimateRepeat": [
+          385,
+          36,
+          56
+        ],
+        "negative": [
+          7025,
+          60,
+          645
+        ],
+        "positive": [
+          775,
+          341,
+          372
+        ],
+        "duplicate": [
+          268,
+          168,
+          142
+        ],
+        "inflated": [
+          280,
+          77,
+          111
+        ],
+        "combined": [
+          227,
+          96,
+          119
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31004,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          256,
+          154,
+          256
+        ],
+        "legitimateRepeat": [
+          395,
+          27,
+          10
+        ],
+        "negative": [
+          7066,
+          57,
+          70
+        ],
+        "positive": [
+          734,
+          332,
+          474
+        ],
+        "duplicate": [
+          256,
+          154,
+          256
+        ],
+        "inflated": [
+          271,
+          77,
+          108
+        ],
+        "combined": [
+          207,
+          101,
+          110
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31004,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          256,
+          154,
+          192
+        ],
+        "legitimateRepeat": [
+          395,
+          27,
+          25
+        ],
+        "negative": [
+          7066,
+          57,
+          351
+        ],
+        "positive": [
+          734,
+          332,
+          415
+        ],
+        "duplicate": [
+          256,
+          154,
+          192
+        ],
+        "inflated": [
+          271,
+          77,
+          111
+        ],
+        "combined": [
+          207,
+          101,
+          112
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31004,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          256,
+          154,
+          143
+        ],
+        "legitimateRepeat": [
+          395,
+          27,
+          47
+        ],
+        "negative": [
+          7066,
+          57,
+          638
+        ],
+        "positive": [
+          734,
+          332,
+          377
+        ],
+        "duplicate": [
+          256,
+          154,
+          143
+        ],
+        "inflated": [
+          271,
+          77,
+          119
+        ],
+        "combined": [
+          207,
+          101,
+          115
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31005,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          304,
+          184,
+          304
+        ],
+        "legitimateRepeat": [
+          400,
+          35,
+          18
+        ],
+        "negative": [
+          6996,
+          68,
+          77
+        ],
+        "positive": [
+          804,
+          377,
+          532
+        ],
+        "duplicate": [
+          304,
+          184,
+          304
+        ],
+        "inflated": [
+          263,
+          74,
+          97
+        ],
+        "combined": [
+          237,
+          119,
+          131
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31005,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          304,
+          184,
+          227
+        ],
+        "legitimateRepeat": [
+          400,
+          35,
+          30
+        ],
+        "negative": [
+          6996,
+          68,
+          358
+        ],
+        "positive": [
+          804,
+          377,
+          466
+        ],
+        "duplicate": [
+          304,
+          184,
+          227
+        ],
+        "inflated": [
+          263,
+          74,
+          102
+        ],
+        "combined": [
+          237,
+          119,
+          137
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31005,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          304,
+          184,
+          159
+        ],
+        "legitimateRepeat": [
+          400,
+          35,
+          57
+        ],
+        "negative": [
+          6996,
+          68,
+          653
+        ],
+        "positive": [
+          804,
+          377,
+          412
+        ],
+        "duplicate": [
+          304,
+          184,
+          159
+        ],
+        "inflated": [
+          263,
+          74,
+          112
+        ],
+        "combined": [
+          237,
+          119,
+          141
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31006,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          291,
+          166,
+          291
+        ],
+        "legitimateRepeat": [
+          406,
+          28,
+          8
+        ],
+        "negative": [
+          6995,
+          46,
+          64
+        ],
+        "positive": [
+          805,
+          369,
+          528
+        ],
+        "duplicate": [
+          291,
+          166,
+          291
+        ],
+        "inflated": [
+          291,
+          81,
+          103
+        ],
+        "combined": [
+          223,
+          122,
+          134
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31006,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          291,
+          166,
+          224
+        ],
+        "legitimateRepeat": [
+          406,
+          28,
+          23
+        ],
+        "negative": [
+          6995,
+          46,
+          308
+        ],
+        "positive": [
+          805,
+          369,
+          474
+        ],
+        "duplicate": [
+          291,
+          166,
+          224
+        ],
+        "inflated": [
+          291,
+          81,
+          114
+        ],
+        "combined": [
+          223,
+          122,
+          136
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31006,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          291,
+          166,
+          159
+        ],
+        "legitimateRepeat": [
+          406,
+          28,
+          49
+        ],
+        "negative": [
+          6995,
+          46,
+          585
+        ],
+        "positive": [
+          805,
+          369,
+          408
+        ],
+        "duplicate": [
+          291,
+          166,
+          159
+        ],
+        "inflated": [
+          291,
+          81,
+          111
+        ],
+        "combined": [
+          223,
+          122,
+          138
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31007,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          268,
+          162,
+          268
+        ],
+        "legitimateRepeat": [
+          405,
+          30,
+          8
+        ],
+        "negative": [
+          7057,
+          61,
+          65
+        ],
+        "positive": [
+          743,
+          354,
+          488
+        ],
+        "duplicate": [
+          268,
+          162,
+          268
+        ],
+        "inflated": [
+          242,
+          68,
+          89
+        ],
+        "combined": [
+          233,
+          124,
+          131
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31007,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          268,
+          162,
+          193
+        ],
+        "legitimateRepeat": [
+          405,
+          30,
+          29
+        ],
+        "negative": [
+          7057,
+          61,
+          343
+        ],
+        "positive": [
+          743,
+          354,
+          418
+        ],
+        "duplicate": [
+          268,
+          162,
+          193
+        ],
+        "inflated": [
+          242,
+          68,
+          90
+        ],
+        "combined": [
+          233,
+          124,
+          135
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31007,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          268,
+          162,
+          128
+        ],
+        "legitimateRepeat": [
+          405,
+          30,
+          38
+        ],
+        "negative": [
+          7057,
+          61,
+          621
+        ],
+        "positive": [
+          743,
+          354,
+          368
+        ],
+        "duplicate": [
+          268,
+          162,
+          128
+        ],
+        "inflated": [
+          242,
+          68,
+          99
+        ],
+        "combined": [
+          233,
+          124,
+          141
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31008,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          258,
+          155,
+          258
+        ],
+        "legitimateRepeat": [
+          387,
+          31,
+          12
+        ],
+        "negative": [
+          6993,
+          50,
+          62
+        ],
+        "positive": [
+          807,
+          376,
+          519
+        ],
+        "duplicate": [
+          258,
+          155,
+          258
+        ],
+        "inflated": [
+          298,
+          90,
+          113
+        ],
+        "combined": [
+          251,
+          131,
+          148
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31008,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          258,
+          155,
+          192
+        ],
+        "legitimateRepeat": [
+          387,
+          31,
+          27
+        ],
+        "negative": [
+          6993,
+          50,
+          309
+        ],
+        "positive": [
+          807,
+          376,
+          468
+        ],
+        "duplicate": [
+          258,
+          155,
+          192
+        ],
+        "inflated": [
+          298,
+          90,
+          123
+        ],
+        "combined": [
+          251,
+          131,
+          153
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31008,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          258,
+          155,
+          142
+        ],
+        "legitimateRepeat": [
+          387,
+          31,
+          58
+        ],
+        "negative": [
+          6993,
+          50,
+          610
+        ],
+        "positive": [
+          807,
+          376,
+          432
+        ],
+        "duplicate": [
+          258,
+          155,
+          142
+        ],
+        "inflated": [
+          298,
+          90,
+          129
+        ],
+        "combined": [
+          251,
+          131,
+          161
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31009,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          281,
+          152,
+          281
+        ],
+        "legitimateRepeat": [
+          386,
+          26,
+          8
+        ],
+        "negative": [
+          7034,
+          55,
+          64
+        ],
+        "positive": [
+          766,
+          322,
+          492
+        ],
+        "duplicate": [
+          281,
+          152,
+          281
+        ],
+        "inflated": [
+          247,
+          67,
+          86
+        ],
+        "combined": [
+          238,
+          103,
+          125
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31009,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          281,
+          152,
+          200
+        ],
+        "legitimateRepeat": [
+          386,
+          26,
+          24
+        ],
+        "negative": [
+          7034,
+          55,
+          352
+        ],
+        "positive": [
+          766,
+          322,
+          422
+        ],
+        "duplicate": [
+          281,
+          152,
+          200
+        ],
+        "inflated": [
+          247,
+          67,
+          93
+        ],
+        "combined": [
+          238,
+          103,
+          129
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31009,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          281,
+          152,
+          147
+        ],
+        "legitimateRepeat": [
+          386,
+          26,
+          47
+        ],
+        "negative": [
+          7034,
+          55,
+          604
+        ],
+        "positive": [
+          766,
+          322,
+          379
+        ],
+        "duplicate": [
+          281,
+          152,
+          147
+        ],
+        "inflated": [
+          247,
+          67,
+          101
+        ],
+        "combined": [
+          238,
+          103,
+          131
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31010,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          299,
+          179,
+          299
+        ],
+        "legitimateRepeat": [
+          401,
+          37,
+          16
+        ],
+        "negative": [
+          6998,
+          69,
+          79
+        ],
+        "positive": [
+          802,
+          386,
+          547
+        ],
+        "duplicate": [
+          299,
+          179,
+          299
+        ],
+        "inflated": [
+          266,
+          80,
+          105
+        ],
+        "combined": [
+          237,
+          127,
+          143
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31010,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          299,
+          179,
+          220
+        ],
+        "legitimateRepeat": [
+          401,
+          37,
+          33
+        ],
+        "negative": [
+          6998,
+          69,
+          343
+        ],
+        "positive": [
+          802,
+          386,
+          474
+        ],
+        "duplicate": [
+          299,
+          179,
+          220
+        ],
+        "inflated": [
+          266,
+          80,
+          107
+        ],
+        "combined": [
+          237,
+          127,
+          147
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31010,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          299,
+          179,
+          150
+        ],
+        "legitimateRepeat": [
+          401,
+          37,
+          51
+        ],
+        "negative": [
+          6998,
+          69,
+          638
+        ],
+        "positive": [
+          802,
+          386,
+          414
+        ],
+        "duplicate": [
+          299,
+          179,
+          150
+        ],
+        "inflated": [
+          266,
+          80,
+          116
+        ],
+        "combined": [
+          237,
+          127,
+          148
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31011,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          280,
+          171,
+          280
+        ],
+        "legitimateRepeat": [
+          373,
+          26,
+          13
+        ],
+        "negative": [
+          7018,
+          39,
+          49
+        ],
+        "positive": [
+          782,
+          365,
+          504
+        ],
+        "duplicate": [
+          280,
+          171,
+          280
+        ],
+        "inflated": [
+          261,
+          77,
+          88
+        ],
+        "combined": [
+          241,
+          117,
+          136
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31011,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          280,
+          171,
+          209
+        ],
+        "legitimateRepeat": [
+          373,
+          26,
+          35
+        ],
+        "negative": [
+          7018,
+          39,
+          311
+        ],
+        "positive": [
+          782,
+          365,
+          440
+        ],
+        "duplicate": [
+          280,
+          171,
+          209
+        ],
+        "inflated": [
+          261,
+          77,
+          93
+        ],
+        "combined": [
+          241,
+          117,
+          138
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31011,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          280,
+          171,
+          161
+        ],
+        "legitimateRepeat": [
+          373,
+          26,
+          58
+        ],
+        "negative": [
+          7018,
+          39,
+          583
+        ],
+        "positive": [
+          782,
+          365,
+          413
+        ],
+        "duplicate": [
+          280,
+          171,
+          161
+        ],
+        "inflated": [
+          261,
+          77,
+          110
+        ],
+        "combined": [
+          241,
+          117,
+          142
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31012,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          274,
+          171,
+          274
+        ],
+        "legitimateRepeat": [
+          391,
+          28,
+          13
+        ],
+        "negative": [
+          7035,
+          56,
+          69
+        ],
+        "positive": [
+          765,
+          361,
+          499
+        ],
+        "duplicate": [
+          274,
+          171,
+          274
+        ],
+        "inflated": [
+          264,
+          72,
+          95
+        ],
+        "combined": [
+          227,
+          118,
+          130
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31012,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          274,
+          171,
+          200
+        ],
+        "legitimateRepeat": [
+          391,
+          28,
+          31
+        ],
+        "negative": [
+          7035,
+          56,
+          321
+        ],
+        "positive": [
+          765,
+          361,
+          433
+        ],
+        "duplicate": [
+          274,
+          171,
+          200
+        ],
+        "inflated": [
+          264,
+          72,
+          102
+        ],
+        "combined": [
+          227,
+          118,
+          131
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31012,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          274,
+          171,
+          151
+        ],
+        "legitimateRepeat": [
+          391,
+          28,
+          56
+        ],
+        "negative": [
+          7035,
+          56,
+          605
+        ],
+        "positive": [
+          765,
+          361,
+          403
+        ],
+        "duplicate": [
+          274,
+          171,
+          151
+        ],
+        "inflated": [
+          264,
+          72,
+          113
+        ],
+        "combined": [
+          227,
+          118,
+          139
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31013,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          277,
+          159,
+          277
+        ],
+        "legitimateRepeat": [
+          358,
+          22,
+          11
+        ],
+        "negative": [
+          7041,
+          40,
+          73
+        ],
+        "positive": [
+          759,
+          343,
+          506
+        ],
+        "duplicate": [
+          277,
+          159,
+          277
+        ],
+        "inflated": [
+          265,
+          67,
+          102
+        ],
+        "combined": [
+          217,
+          117,
+          127
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31013,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          277,
+          159,
+          207
+        ],
+        "legitimateRepeat": [
+          358,
+          22,
+          23
+        ],
+        "negative": [
+          7041,
+          40,
+          333
+        ],
+        "positive": [
+          759,
+          343,
+          442
+        ],
+        "duplicate": [
+          277,
+          159,
+          207
+        ],
+        "inflated": [
+          265,
+          67,
+          107
+        ],
+        "combined": [
+          217,
+          117,
+          128
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31013,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          277,
+          159,
+          142
+        ],
+        "legitimateRepeat": [
+          358,
+          22,
+          46
+        ],
+        "negative": [
+          7041,
+          40,
+          652
+        ],
+        "positive": [
+          759,
+          343,
+          397
+        ],
+        "duplicate": [
+          277,
+          159,
+          142
+        ],
+        "inflated": [
+          265,
+          67,
+          121
+        ],
+        "combined": [
+          217,
+          117,
+          134
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31014,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          282,
+          182,
+          282
+        ],
+        "legitimateRepeat": [
+          434,
+          39,
+          10
+        ],
+        "negative": [
+          7011,
+          65,
+          70
+        ],
+        "positive": [
+          789,
+          376,
+          505
+        ],
+        "duplicate": [
+          282,
+          182,
+          282
+        ],
+        "inflated": [
+          259,
+          67,
+          85
+        ],
+        "combined": [
+          248,
+          127,
+          138
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31014,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          282,
+          182,
+          207
+        ],
+        "legitimateRepeat": [
+          434,
+          39,
+          36
+        ],
+        "negative": [
+          7011,
+          65,
+          365
+        ],
+        "positive": [
+          789,
+          376,
+          439
+        ],
+        "duplicate": [
+          282,
+          182,
+          207
+        ],
+        "inflated": [
+          259,
+          67,
+          89
+        ],
+        "combined": [
+          248,
+          127,
+          143
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31014,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          282,
+          182,
+          161
+        ],
+        "legitimateRepeat": [
+          434,
+          39,
+          56
+        ],
+        "negative": [
+          7011,
+          65,
+          632
+        ],
+        "positive": [
+          789,
+          376,
+          401
+        ],
+        "duplicate": [
+          282,
+          182,
+          161
+        ],
+        "inflated": [
+          259,
+          67,
+          93
+        ],
+        "combined": [
+          248,
+          127,
+          147
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31015,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          265,
+          156,
+          265
+        ],
+        "legitimateRepeat": [
+          398,
+          35,
+          13
+        ],
+        "negative": [
+          7047,
+          69,
+          66
+        ],
+        "positive": [
+          753,
+          337,
+          489
+        ],
+        "duplicate": [
+          265,
+          156,
+          265
+        ],
+        "inflated": [
+          237,
+          64,
+          89
+        ],
+        "combined": [
+          251,
+          117,
+          135
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31015,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          265,
+          156,
+          195
+        ],
+        "legitimateRepeat": [
+          398,
+          35,
+          36
+        ],
+        "negative": [
+          7047,
+          69,
+          360
+        ],
+        "positive": [
+          753,
+          337,
+          428
+        ],
+        "duplicate": [
+          265,
+          156,
+          195
+        ],
+        "inflated": [
+          237,
+          64,
+          94
+        ],
+        "combined": [
+          251,
+          117,
+          139
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31015,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          265,
+          156,
+          145
+        ],
+        "legitimateRepeat": [
+          398,
+          35,
+          51
+        ],
+        "negative": [
+          7047,
+          69,
+          622
+        ],
+        "positive": [
+          753,
+          337,
+          393
+        ],
+        "duplicate": [
+          265,
+          156,
+          145
+        ],
+        "inflated": [
+          237,
+          64,
+          100
+        ],
+        "combined": [
+          251,
+          117,
+          148
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31016,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          264,
+          162,
+          264
+        ],
+        "legitimateRepeat": [
+          407,
+          34,
+          10
+        ],
+        "negative": [
+          7013,
+          54,
+          64
+        ],
+        "positive": [
+          787,
+          361,
+          495
+        ],
+        "duplicate": [
+          264,
+          162,
+          264
+        ],
+        "inflated": [
+          281,
+          69,
+          90
+        ],
+        "combined": [
+          242,
+          130,
+          141
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31016,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          264,
+          162,
+          194
+        ],
+        "legitimateRepeat": [
+          407,
+          34,
+          26
+        ],
+        "negative": [
+          7013,
+          54,
+          335
+        ],
+        "positive": [
+          787,
+          361,
+          439
+        ],
+        "duplicate": [
+          264,
+          162,
+          194
+        ],
+        "inflated": [
+          281,
+          69,
+          96
+        ],
+        "combined": [
+          242,
+          130,
+          149
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31016,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          264,
+          162,
+          148
+        ],
+        "legitimateRepeat": [
+          407,
+          34,
+          66
+        ],
+        "negative": [
+          7013,
+          54,
+          607
+        ],
+        "positive": [
+          787,
+          361,
+          400
+        ],
+        "duplicate": [
+          264,
+          162,
+          148
+        ],
+        "inflated": [
+          281,
+          69,
+          107
+        ],
+        "combined": [
+          242,
+          130,
+          145
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31017,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          245,
+          138,
+          245
+        ],
+        "legitimateRepeat": [
+          406,
+          37,
+          16
+        ],
+        "negative": [
+          7078,
+          67,
+          83
+        ],
+        "positive": [
+          722,
+          318,
+          463
+        ],
+        "duplicate": [
+          245,
+          138,
+          245
+        ],
+        "inflated": [
+          267,
+          75,
+          98
+        ],
+        "combined": [
+          210,
+          105,
+          120
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31017,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          245,
+          138,
+          185
+        ],
+        "legitimateRepeat": [
+          406,
+          37,
+          33
+        ],
+        "negative": [
+          7078,
+          67,
+          380
+        ],
+        "positive": [
+          722,
+          318,
+          412
+        ],
+        "duplicate": [
+          245,
+          138,
+          185
+        ],
+        "inflated": [
+          267,
+          75,
+          103
+        ],
+        "combined": [
+          210,
+          105,
+          124
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31017,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          245,
+          138,
+          125
+        ],
+        "legitimateRepeat": [
+          406,
+          37,
+          58
+        ],
+        "negative": [
+          7078,
+          67,
+          601
+        ],
+        "positive": [
+          722,
+          318,
+          366
+        ],
+        "duplicate": [
+          245,
+          138,
+          125
+        ],
+        "inflated": [
+          267,
+          75,
+          114
+        ],
+        "combined": [
+          210,
+          105,
+          127
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31018,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          265,
+          156,
+          265
+        ],
+        "legitimateRepeat": [
+          379,
+          34,
+          19
+        ],
+        "negative": [
+          6992,
+          59,
+          79
+        ],
+        "positive": [
+          808,
+          377,
+          522
+        ],
+        "duplicate": [
+          265,
+          156,
+          265
+        ],
+        "inflated": [
+          288,
+          80,
+          105
+        ],
+        "combined": [
+          255,
+          141,
+          152
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31018,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          265,
+          156,
+          198
+        ],
+        "legitimateRepeat": [
+          379,
+          34,
+          32
+        ],
+        "negative": [
+          6992,
+          59,
+          357
+        ],
+        "positive": [
+          808,
+          377,
+          465
+        ],
+        "duplicate": [
+          265,
+          156,
+          198
+        ],
+        "inflated": [
+          288,
+          80,
+          110
+        ],
+        "combined": [
+          255,
+          141,
+          157
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31018,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          265,
+          156,
+          140
+        ],
+        "legitimateRepeat": [
+          379,
+          34,
+          49
+        ],
+        "negative": [
+          6992,
+          59,
+          649
+        ],
+        "positive": [
+          808,
+          377,
+          414
+        ],
+        "duplicate": [
+          265,
+          156,
+          140
+        ],
+        "inflated": [
+          288,
+          80,
+          116
+        ],
+        "combined": [
+          255,
+          141,
+          158
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31019,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          261,
+          146,
+          261
+        ],
+        "legitimateRepeat": [
+          385,
+          37,
+          16
+        ],
+        "negative": [
+          7037,
+          60,
+          66
+        ],
+        "positive": [
+          763,
+          329,
+          473
+        ],
+        "duplicate": [
+          261,
+          146,
+          261
+        ],
+        "inflated": [
+          265,
+          75,
+          96
+        ],
+        "combined": [
+          237,
+          108,
+          116
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31019,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          261,
+          146,
+          173
+        ],
+        "legitimateRepeat": [
+          385,
+          37,
+          45
+        ],
+        "negative": [
+          7037,
+          60,
+          348
+        ],
+        "positive": [
+          763,
+          329,
+          394
+        ],
+        "duplicate": [
+          261,
+          146,
+          173
+        ],
+        "inflated": [
+          265,
+          75,
+          101
+        ],
+        "combined": [
+          237,
+          108,
+          120
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31019,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          261,
+          146,
+          135
+        ],
+        "legitimateRepeat": [
+          385,
+          37,
+          51
+        ],
+        "negative": [
+          7037,
+          60,
+          640
+        ],
+        "positive": [
+          763,
+          329,
+          369
+        ],
+        "duplicate": [
+          261,
+          146,
+          135
+        ],
+        "inflated": [
+          265,
+          75,
+          110
+        ],
+        "combined": [
+          237,
+          108,
+          124
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31020,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          299,
+          187,
+          299
+        ],
+        "legitimateRepeat": [
+          391,
+          24,
+          11
+        ],
+        "negative": [
+          6967,
+          45,
+          55
+        ],
+        "positive": [
+          833,
+          371,
+          512
+        ],
+        "duplicate": [
+          299,
+          187,
+          299
+        ],
+        "inflated": [
+          276,
+          67,
+          89
+        ],
+        "combined": [
+          258,
+          117,
+          124
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31020,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          299,
+          187,
+          225
+        ],
+        "legitimateRepeat": [
+          391,
+          24,
+          33
+        ],
+        "negative": [
+          6967,
+          45,
+          322
+        ],
+        "positive": [
+          833,
+          371,
+          447
+        ],
+        "duplicate": [
+          299,
+          187,
+          225
+        ],
+        "inflated": [
+          276,
+          67,
+          96
+        ],
+        "combined": [
+          258,
+          117,
+          126
+        ]
+      }
+    },
+    {
+      "cohort": "primary",
+      "seed": 31020,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          299,
+          187,
+          156
+        ],
+        "legitimateRepeat": [
+          391,
+          24,
+          56
+        ],
+        "negative": [
+          6967,
+          45,
+          601
+        ],
+        "positive": [
+          833,
+          371,
+          407
+        ],
+        "duplicate": [
+          299,
+          187,
+          156
+        ],
+        "inflated": [
+          276,
+          67,
+          110
+        ],
+        "combined": [
+          258,
+          117,
+          141
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41001,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          323,
+          118,
+          323
+        ],
+        "legitimateRepeat": [
+          442,
+          81,
+          13
+        ],
+        "negative": [
+          6959,
+          114,
+          76
+        ],
+        "positive": [
+          841,
+          320,
+          555
+        ],
+        "duplicate": [
+          323,
+          118,
+          323
+        ],
+        "inflated": [
+          293,
+          80,
+          110
+        ],
+        "combined": [
+          225,
+          122,
+          122
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41001,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          323,
+          118,
+          235
+        ],
+        "legitimateRepeat": [
+          442,
+          81,
+          45
+        ],
+        "negative": [
+          6959,
+          114,
+          355
+        ],
+        "positive": [
+          841,
+          320,
+          482
+        ],
+        "duplicate": [
+          323,
+          118,
+          235
+        ],
+        "inflated": [
+          293,
+          80,
+          118
+        ],
+        "combined": [
+          225,
+          122,
+          129
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41001,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          323,
+          118,
+          151
+        ],
+        "legitimateRepeat": [
+          442,
+          81,
+          89
+        ],
+        "negative": [
+          6959,
+          114,
+          674
+        ],
+        "positive": [
+          841,
+          320,
+          414
+        ],
+        "duplicate": [
+          323,
+          118,
+          151
+        ],
+        "inflated": [
+          293,
+          80,
+          132
+        ],
+        "combined": [
+          225,
+          122,
+          131
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41002,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          273,
+          104,
+          273
+        ],
+        "legitimateRepeat": [
+          398,
+          56,
+          9
+        ],
+        "negative": [
+          7064,
+          87,
+          69
+        ],
+        "positive": [
+          736,
+          286,
+          496
+        ],
+        "duplicate": [
+          273,
+          104,
+          273
+        ],
+        "inflated": [
+          249,
+          69,
+          96
+        ],
+        "combined": [
+          214,
+          113,
+          127
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41002,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          273,
+          104,
+          203
+        ],
+        "legitimateRepeat": [
+          398,
+          56,
+          36
+        ],
+        "negative": [
+          7064,
+          87,
+          350
+        ],
+        "positive": [
+          736,
+          286,
+          437
+        ],
+        "duplicate": [
+          273,
+          104,
+          203
+        ],
+        "inflated": [
+          249,
+          69,
+          105
+        ],
+        "combined": [
+          214,
+          113,
+          129
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41002,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          273,
+          104,
+          130
+        ],
+        "legitimateRepeat": [
+          398,
+          56,
+          61
+        ],
+        "negative": [
+          7064,
+          87,
+          645
+        ],
+        "positive": [
+          736,
+          286,
+          373
+        ],
+        "duplicate": [
+          273,
+          104,
+          130
+        ],
+        "inflated": [
+          249,
+          69,
+          109
+        ],
+        "combined": [
+          214,
+          113,
+          134
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41003,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          266,
+          91,
+          266
+        ],
+        "legitimateRepeat": [
+          422,
+          76,
+          14
+        ],
+        "negative": [
+          7015,
+          105,
+          77
+        ],
+        "positive": [
+          785,
+          294,
+          504
+        ],
+        "duplicate": [
+          266,
+          91,
+          266
+        ],
+        "inflated": [
+          277,
+          73,
+          100
+        ],
+        "combined": [
+          242,
+          130,
+          138
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41003,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          266,
+          91,
+          187
+        ],
+        "legitimateRepeat": [
+          422,
+          76,
+          38
+        ],
+        "negative": [
+          7015,
+          105,
+          357
+        ],
+        "positive": [
+          785,
+          294,
+          434
+        ],
+        "duplicate": [
+          266,
+          91,
+          187
+        ],
+        "inflated": [
+          277,
+          73,
+          106
+        ],
+        "combined": [
+          242,
+          130,
+          141
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41003,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          266,
+          91,
+          124
+        ],
+        "legitimateRepeat": [
+          422,
+          76,
+          76
+        ],
+        "negative": [
+          7015,
+          105,
+          641
+        ],
+        "positive": [
+          785,
+          294,
+          383
+        ],
+        "duplicate": [
+          266,
+          91,
+          124
+        ],
+        "inflated": [
+          277,
+          73,
+          112
+        ],
+        "combined": [
+          242,
+          130,
+          147
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41004,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          296,
+          111,
+          296
+        ],
+        "legitimateRepeat": [
+          379,
+          62,
+          10
+        ],
+        "negative": [
+          7012,
+          96,
+          71
+        ],
+        "positive": [
+          788,
+          299,
+          526
+        ],
+        "duplicate": [
+          296,
+          111,
+          296
+        ],
+        "inflated": [
+          263,
+          76,
+          102
+        ],
+        "combined": [
+          229,
+          112,
+          128
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41004,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          296,
+          111,
+          189
+        ],
+        "legitimateRepeat": [
+          379,
+          62,
+          36
+        ],
+        "negative": [
+          7012,
+          96,
+          355
+        ],
+        "positive": [
+          788,
+          299,
+          428
+        ],
+        "duplicate": [
+          296,
+          111,
+          189
+        ],
+        "inflated": [
+          263,
+          76,
+          109
+        ],
+        "combined": [
+          229,
+          112,
+          130
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41004,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          296,
+          111,
+          128
+        ],
+        "legitimateRepeat": [
+          379,
+          62,
+          60
+        ],
+        "negative": [
+          7012,
+          96,
+          627
+        ],
+        "positive": [
+          788,
+          299,
+          379
+        ],
+        "duplicate": [
+          296,
+          111,
+          128
+        ],
+        "inflated": [
+          263,
+          76,
+          114
+        ],
+        "combined": [
+          229,
+          112,
+          137
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41005,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          307,
+          93,
+          307
+        ],
+        "legitimateRepeat": [
+          369,
+          61,
+          10
+        ],
+        "negative": [
+          7037,
+          89,
+          72
+        ],
+        "positive": [
+          763,
+          283,
+          525
+        ],
+        "duplicate": [
+          307,
+          93,
+          307
+        ],
+        "inflated": [
+          237,
+          65,
+          79
+        ],
+        "combined": [
+          219,
+          125,
+          139
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41005,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          307,
+          93,
+          208
+        ],
+        "legitimateRepeat": [
+          369,
+          61,
+          34
+        ],
+        "negative": [
+          7037,
+          89,
+          360
+        ],
+        "positive": [
+          763,
+          283,
+          427
+        ],
+        "duplicate": [
+          307,
+          93,
+          208
+        ],
+        "inflated": [
+          237,
+          65,
+          80
+        ],
+        "combined": [
+          219,
+          125,
+          139
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41005,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          307,
+          93,
+          119
+        ],
+        "legitimateRepeat": [
+          369,
+          61,
+          54
+        ],
+        "negative": [
+          7037,
+          89,
+          648
+        ],
+        "positive": [
+          763,
+          283,
+          360
+        ],
+        "duplicate": [
+          307,
+          93,
+          119
+        ],
+        "inflated": [
+          237,
+          65,
+          93
+        ],
+        "combined": [
+          219,
+          125,
+          148
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41006,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          274,
+          92,
+          274
+        ],
+        "legitimateRepeat": [
+          391,
+          71,
+          8
+        ],
+        "negative": [
+          7017,
+          92,
+          60
+        ],
+        "positive": [
+          783,
+          264,
+          485
+        ],
+        "duplicate": [
+          274,
+          92,
+          274
+        ],
+        "inflated": [
+          282,
+          71,
+          100
+        ],
+        "combined": [
+          227,
+          101,
+          111
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41006,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          274,
+          92,
+          182
+        ],
+        "legitimateRepeat": [
+          391,
+          71,
+          38
+        ],
+        "negative": [
+          7017,
+          92,
+          355
+        ],
+        "positive": [
+          783,
+          264,
+          404
+        ],
+        "duplicate": [
+          274,
+          92,
+          182
+        ],
+        "inflated": [
+          282,
+          71,
+          106
+        ],
+        "combined": [
+          227,
+          101,
+          116
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41006,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          274,
+          92,
+          121
+        ],
+        "legitimateRepeat": [
+          391,
+          71,
+          70
+        ],
+        "negative": [
+          7017,
+          92,
+          636
+        ],
+        "positive": [
+          783,
+          264,
+          349
+        ],
+        "duplicate": [
+          274,
+          92,
+          121
+        ],
+        "inflated": [
+          282,
+          71,
+          109
+        ],
+        "combined": [
+          227,
+          101,
+          119
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41007,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          271,
+          94,
+          271
+        ],
+        "legitimateRepeat": [
+          395,
+          69,
+          13
+        ],
+        "negative": [
+          7029,
+          94,
+          74
+        ],
+        "positive": [
+          771,
+          299,
+          500
+        ],
+        "duplicate": [
+          271,
+          94,
+          271
+        ],
+        "inflated": [
+          263,
+          70,
+          83
+        ],
+        "combined": [
+          237,
+          135,
+          146
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41007,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          271,
+          94,
+          184
+        ],
+        "legitimateRepeat": [
+          395,
+          69,
+          39
+        ],
+        "negative": [
+          7029,
+          94,
+          334
+        ],
+        "positive": [
+          771,
+          299,
+          422
+        ],
+        "duplicate": [
+          271,
+          94,
+          184
+        ],
+        "inflated": [
+          263,
+          70,
+          88
+        ],
+        "combined": [
+          237,
+          135,
+          150
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41007,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          271,
+          94,
+          124
+        ],
+        "legitimateRepeat": [
+          395,
+          69,
+          67
+        ],
+        "negative": [
+          7029,
+          94,
+          636
+        ],
+        "positive": [
+          771,
+          299,
+          371
+        ],
+        "duplicate": [
+          271,
+          94,
+          124
+        ],
+        "inflated": [
+          263,
+          70,
+          92
+        ],
+        "combined": [
+          237,
+          135,
+          155
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41008,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          264,
+          98,
+          264
+        ],
+        "legitimateRepeat": [
+          374,
+          66,
+          11
+        ],
+        "negative": [
+          7040,
+          97,
+          68
+        ],
+        "positive": [
+          760,
+          278,
+          473
+        ],
+        "duplicate": [
+          264,
+          98,
+          264
+        ],
+        "inflated": [
+          272,
+          71,
+          96
+        ],
+        "combined": [
+          224,
+          109,
+          113
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41008,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          264,
+          98,
+          196
+        ],
+        "legitimateRepeat": [
+          374,
+          66,
+          36
+        ],
+        "negative": [
+          7040,
+          97,
+          336
+        ],
+        "positive": [
+          760,
+          278,
+          411
+        ],
+        "duplicate": [
+          264,
+          98,
+          196
+        ],
+        "inflated": [
+          272,
+          71,
+          99
+        ],
+        "combined": [
+          224,
+          109,
+          116
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41008,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          264,
+          98,
+          126
+        ],
+        "legitimateRepeat": [
+          374,
+          66,
+          66
+        ],
+        "negative": [
+          7040,
+          97,
+          660
+        ],
+        "positive": [
+          760,
+          278,
+          355
+        ],
+        "duplicate": [
+          264,
+          98,
+          126
+        ],
+        "inflated": [
+          272,
+          71,
+          112
+        ],
+        "combined": [
+          224,
+          109,
+          117
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41009,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          329,
+          114,
+          329
+        ],
+        "legitimateRepeat": [
+          370,
+          62,
+          6
+        ],
+        "negative": [
+          6993,
+          89,
+          53
+        ],
+        "positive": [
+          807,
+          288,
+          545
+        ],
+        "duplicate": [
+          329,
+          114,
+          329
+        ],
+        "inflated": [
+          269,
+          79,
+          110
+        ],
+        "combined": [
+          209,
+          95,
+          106
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41009,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          329,
+          114,
+          214
+        ],
+        "legitimateRepeat": [
+          370,
+          62,
+          26
+        ],
+        "negative": [
+          6993,
+          89,
+          320
+        ],
+        "positive": [
+          807,
+          288,
+          438
+        ],
+        "duplicate": [
+          329,
+          114,
+          214
+        ],
+        "inflated": [
+          269,
+          79,
+          115
+        ],
+        "combined": [
+          209,
+          95,
+          109
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41009,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          329,
+          114,
+          136
+        ],
+        "legitimateRepeat": [
+          370,
+          62,
+          54
+        ],
+        "negative": [
+          6993,
+          89,
+          656
+        ],
+        "positive": [
+          807,
+          288,
+          372
+        ],
+        "duplicate": [
+          329,
+          114,
+          136
+        ],
+        "inflated": [
+          269,
+          79,
+          120
+        ],
+        "combined": [
+          209,
+          95,
+          116
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41010,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          264,
+          83,
+          264
+        ],
+        "legitimateRepeat": [
+          388,
+          62,
+          8
+        ],
+        "negative": [
+          7058,
+          90,
+          67
+        ],
+        "positive": [
+          742,
+          252,
+          483
+        ],
+        "duplicate": [
+          264,
+          83,
+          264
+        ],
+        "inflated": [
+          256,
+          66,
+          97
+        ],
+        "combined": [
+          222,
+          103,
+          122
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41010,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          264,
+          83,
+          185
+        ],
+        "legitimateRepeat": [
+          388,
+          62,
+          32
+        ],
+        "negative": [
+          7058,
+          90,
+          330
+        ],
+        "positive": [
+          742,
+          252,
+          410
+        ],
+        "duplicate": [
+          264,
+          83,
+          185
+        ],
+        "inflated": [
+          256,
+          66,
+          100
+        ],
+        "combined": [
+          222,
+          103,
+          125
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41010,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          264,
+          83,
+          118
+        ],
+        "legitimateRepeat": [
+          388,
+          62,
+          60
+        ],
+        "negative": [
+          7058,
+          90,
+          659
+        ],
+        "positive": [
+          742,
+          252,
+          354
+        ],
+        "duplicate": [
+          264,
+          83,
+          118
+        ],
+        "inflated": [
+          256,
+          66,
+          109
+        ],
+        "combined": [
+          222,
+          103,
+          127
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41011,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          266,
+          88,
+          266
+        ],
+        "legitimateRepeat": [
+          368,
+          74,
+          8
+        ],
+        "negative": [
+          7007,
+          95,
+          46
+        ],
+        "positive": [
+          793,
+          296,
+          510
+        ],
+        "duplicate": [
+          266,
+          88,
+          266
+        ],
+        "inflated": [
+          270,
+          76,
+          91
+        ],
+        "combined": [
+          257,
+          132,
+          153
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41011,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          266,
+          88,
+          189
+        ],
+        "legitimateRepeat": [
+          368,
+          74,
+          36
+        ],
+        "negative": [
+          7007,
+          95,
+          337
+        ],
+        "positive": [
+          793,
+          296,
+          444
+        ],
+        "duplicate": [
+          266,
+          88,
+          189
+        ],
+        "inflated": [
+          270,
+          76,
+          97
+        ],
+        "combined": [
+          257,
+          132,
+          158
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41011,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          266,
+          88,
+          116
+        ],
+        "legitimateRepeat": [
+          368,
+          74,
+          72
+        ],
+        "negative": [
+          7007,
+          95,
+          634
+        ],
+        "positive": [
+          793,
+          296,
+          383
+        ],
+        "duplicate": [
+          266,
+          88,
+          116
+        ],
+        "inflated": [
+          270,
+          76,
+          103
+        ],
+        "combined": [
+          257,
+          132,
+          164
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41012,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          256,
+          85,
+          256
+        ],
+        "legitimateRepeat": [
+          372,
+          70,
+          13
+        ],
+        "negative": [
+          7041,
+          100,
+          68
+        ],
+        "positive": [
+          759,
+          286,
+          497
+        ],
+        "duplicate": [
+          256,
+          85,
+          256
+        ],
+        "inflated": [
+          301,
+          94,
+          121
+        ],
+        "combined": [
+          202,
+          107,
+          120
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41012,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          256,
+          85,
+          172
+        ],
+        "legitimateRepeat": [
+          372,
+          70,
+          31
+        ],
+        "negative": [
+          7041,
+          100,
+          352
+        ],
+        "positive": [
+          759,
+          286,
+          418
+        ],
+        "duplicate": [
+          256,
+          85,
+          172
+        ],
+        "inflated": [
+          301,
+          94,
+          125
+        ],
+        "combined": [
+          202,
+          107,
+          121
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41012,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          256,
+          85,
+          126
+        ],
+        "legitimateRepeat": [
+          372,
+          70,
+          60
+        ],
+        "negative": [
+          7041,
+          100,
+          646
+        ],
+        "positive": [
+          759,
+          286,
+          388
+        ],
+        "duplicate": [
+          256,
+          85,
+          126
+        ],
+        "inflated": [
+          301,
+          94,
+          135
+        ],
+        "combined": [
+          202,
+          107,
+          127
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41013,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          280,
+          107,
+          280
+        ],
+        "legitimateRepeat": [
+          371,
+          57,
+          14
+        ],
+        "negative": [
+          6983,
+          77,
+          64
+        ],
+        "positive": [
+          817,
+          320,
+          537
+        ],
+        "duplicate": [
+          280,
+          107,
+          280
+        ],
+        "inflated": [
+          300,
+          81,
+          111
+        ],
+        "combined": [
+          237,
+          132,
+          146
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41013,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          280,
+          107,
+          189
+        ],
+        "legitimateRepeat": [
+          371,
+          57,
+          33
+        ],
+        "negative": [
+          6983,
+          77,
+          340
+        ],
+        "positive": [
+          817,
+          320,
+          455
+        ],
+        "duplicate": [
+          280,
+          107,
+          189
+        ],
+        "inflated": [
+          300,
+          81,
+          119
+        ],
+        "combined": [
+          237,
+          132,
+          147
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41013,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          280,
+          107,
+          134
+        ],
+        "legitimateRepeat": [
+          371,
+          57,
+          56
+        ],
+        "negative": [
+          6983,
+          77,
+          612
+        ],
+        "positive": [
+          817,
+          320,
+          412
+        ],
+        "duplicate": [
+          280,
+          107,
+          134
+        ],
+        "inflated": [
+          300,
+          81,
+          122
+        ],
+        "combined": [
+          237,
+          132,
+          156
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41014,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          275,
+          95,
+          275
+        ],
+        "legitimateRepeat": [
+          436,
+          78,
+          11
+        ],
+        "negative": [
+          7020,
+          93,
+          60
+        ],
+        "positive": [
+          780,
+          305,
+          520
+        ],
+        "duplicate": [
+          275,
+          95,
+          275
+        ],
+        "inflated": [
+          263,
+          80,
+          107
+        ],
+        "combined": [
+          242,
+          130,
+          138
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41014,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          275,
+          95,
+          191
+        ],
+        "legitimateRepeat": [
+          436,
+          78,
+          44
+        ],
+        "negative": [
+          7020,
+          93,
+          355
+        ],
+        "positive": [
+          780,
+          305,
+          443
+        ],
+        "duplicate": [
+          275,
+          95,
+          191
+        ],
+        "inflated": [
+          263,
+          80,
+          114
+        ],
+        "combined": [
+          242,
+          130,
+          138
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41014,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          275,
+          95,
+          116
+        ],
+        "legitimateRepeat": [
+          436,
+          78,
+          70
+        ],
+        "negative": [
+          7020,
+          93,
+          658
+        ],
+        "positive": [
+          780,
+          305,
+          378
+        ],
+        "duplicate": [
+          275,
+          95,
+          116
+        ],
+        "inflated": [
+          263,
+          80,
+          120
+        ],
+        "combined": [
+          242,
+          130,
+          142
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41015,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          289,
+          102,
+          289
+        ],
+        "legitimateRepeat": [
+          349,
+          66,
+          6
+        ],
+        "negative": [
+          6991,
+          91,
+          68
+        ],
+        "positive": [
+          809,
+          307,
+          548
+        ],
+        "duplicate": [
+          289,
+          102,
+          289
+        ],
+        "inflated": [
+          271,
+          80,
+          109
+        ],
+        "combined": [
+          249,
+          125,
+          150
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41015,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          289,
+          102,
+          205
+        ],
+        "legitimateRepeat": [
+          349,
+          66,
+          31
+        ],
+        "negative": [
+          6991,
+          91,
+          358
+        ],
+        "positive": [
+          809,
+          307,
+          475
+        ],
+        "duplicate": [
+          289,
+          102,
+          205
+        ],
+        "inflated": [
+          271,
+          80,
+          113
+        ],
+        "combined": [
+          249,
+          125,
+          157
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41015,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          289,
+          102,
+          133
+        ],
+        "legitimateRepeat": [
+          349,
+          66,
+          60
+        ],
+        "negative": [
+          6991,
+          91,
+          630
+        ],
+        "positive": [
+          809,
+          307,
+          416
+        ],
+        "duplicate": [
+          289,
+          102,
+          133
+        ],
+        "inflated": [
+          271,
+          80,
+          123
+        ],
+        "combined": [
+          249,
+          125,
+          160
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41016,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          281,
+          100,
+          281
+        ],
+        "legitimateRepeat": [
+          394,
+          89,
+          12
+        ],
+        "negative": [
+          7028,
+          110,
+          65
+        ],
+        "positive": [
+          772,
+          311,
+          532
+        ],
+        "duplicate": [
+          281,
+          100,
+          281
+        ],
+        "inflated": [
+          269,
+          84,
+          113
+        ],
+        "combined": [
+          222,
+          127,
+          138
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41016,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          281,
+          100,
+          196
+        ],
+        "legitimateRepeat": [
+          394,
+          89,
+          25
+        ],
+        "negative": [
+          7028,
+          110,
+          316
+        ],
+        "positive": [
+          772,
+          311,
+          456
+        ],
+        "duplicate": [
+          281,
+          100,
+          196
+        ],
+        "inflated": [
+          269,
+          84,
+          121
+        ],
+        "combined": [
+          222,
+          127,
+          139
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41016,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          281,
+          100,
+          123
+        ],
+        "legitimateRepeat": [
+          394,
+          89,
+          66
+        ],
+        "negative": [
+          7028,
+          110,
+          609
+        ],
+        "positive": [
+          772,
+          311,
+          392
+        ],
+        "duplicate": [
+          281,
+          100,
+          123
+        ],
+        "inflated": [
+          269,
+          84,
+          124
+        ],
+        "combined": [
+          222,
+          127,
+          145
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41017,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          301,
+          109,
+          301
+        ],
+        "legitimateRepeat": [
+          376,
+          68,
+          15
+        ],
+        "negative": [
+          6996,
+          98,
+          80
+        ],
+        "positive": [
+          804,
+          294,
+          529
+        ],
+        "duplicate": [
+          301,
+          109,
+          301
+        ],
+        "inflated": [
+          260,
+          66,
+          95
+        ],
+        "combined": [
+          243,
+          119,
+          133
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41017,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          301,
+          109,
+          208
+        ],
+        "legitimateRepeat": [
+          376,
+          68,
+          40
+        ],
+        "negative": [
+          6996,
+          98,
+          350
+        ],
+        "positive": [
+          804,
+          294,
+          444
+        ],
+        "duplicate": [
+          301,
+          109,
+          208
+        ],
+        "inflated": [
+          260,
+          66,
+          99
+        ],
+        "combined": [
+          243,
+          119,
+          137
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41017,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          301,
+          109,
+          133
+        ],
+        "legitimateRepeat": [
+          376,
+          68,
+          69
+        ],
+        "negative": [
+          6996,
+          98,
+          660
+        ],
+        "positive": [
+          804,
+          294,
+          385
+        ],
+        "duplicate": [
+          301,
+          109,
+          133
+        ],
+        "inflated": [
+          260,
+          66,
+          112
+        ],
+        "combined": [
+          243,
+          119,
+          140
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41018,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          263,
+          95,
+          263
+        ],
+        "legitimateRepeat": [
+          368,
+          73,
+          14
+        ],
+        "negative": [
+          7024,
+          96,
+          59
+        ],
+        "positive": [
+          776,
+          300,
+          488
+        ],
+        "duplicate": [
+          263,
+          95,
+          263
+        ],
+        "inflated": [
+          295,
+          97,
+          113
+        ],
+        "combined": [
+          218,
+          108,
+          112
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41018,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          263,
+          95,
+          179
+        ],
+        "legitimateRepeat": [
+          368,
+          73,
+          48
+        ],
+        "negative": [
+          7024,
+          96,
+          335
+        ],
+        "positive": [
+          776,
+          300,
+          416
+        ],
+        "duplicate": [
+          263,
+          95,
+          179
+        ],
+        "inflated": [
+          295,
+          97,
+          120
+        ],
+        "combined": [
+          218,
+          108,
+          117
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41018,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          263,
+          95,
+          124
+        ],
+        "legitimateRepeat": [
+          368,
+          73,
+          66
+        ],
+        "negative": [
+          7024,
+          96,
+          627
+        ],
+        "positive": [
+          776,
+          300,
+          372
+        ],
+        "duplicate": [
+          263,
+          95,
+          124
+        ],
+        "inflated": [
+          295,
+          97,
+          131
+        ],
+        "combined": [
+          218,
+          108,
+          117
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41019,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          286,
+          95,
+          286
+        ],
+        "legitimateRepeat": [
+          424,
+          74,
+          13
+        ],
+        "negative": [
+          6994,
+          97,
+          61
+        ],
+        "positive": [
+          806,
+          292,
+          507
+        ],
+        "duplicate": [
+          286,
+          95,
+          286
+        ],
+        "inflated": [
+          288,
+          85,
+          104
+        ],
+        "combined": [
+          232,
+          112,
+          117
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41019,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          286,
+          95,
+          193
+        ],
+        "legitimateRepeat": [
+          424,
+          74,
+          44
+        ],
+        "negative": [
+          6994,
+          97,
+          355
+        ],
+        "positive": [
+          806,
+          292,
+          434
+        ],
+        "duplicate": [
+          286,
+          95,
+          193
+        ],
+        "inflated": [
+          288,
+          85,
+          114
+        ],
+        "combined": [
+          232,
+          112,
+          127
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41019,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          286,
+          95,
+          121
+        ],
+        "legitimateRepeat": [
+          424,
+          74,
+          71
+        ],
+        "negative": [
+          6994,
+          97,
+          678
+        ],
+        "positive": [
+          806,
+          292,
+          366
+        ],
+        "duplicate": [
+          286,
+          95,
+          121
+        ],
+        "inflated": [
+          288,
+          85,
+          120
+        ],
+        "combined": [
+          232,
+          112,
+          125
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41020,
+      "profile": "correct",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          249,
+          84,
+          249
+        ],
+        "legitimateRepeat": [
+          409,
+          66,
+          12
+        ],
+        "negative": [
+          7043,
+          85,
+          58
+        ],
+        "positive": [
+          757,
+          270,
+          480
+        ],
+        "duplicate": [
+          249,
+          84,
+          249
+        ],
+        "inflated": [
+          260,
+          62,
+          94
+        ],
+        "combined": [
+          248,
+          124,
+          137
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41020,
+      "profile": "mixed",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          249,
+          84,
+          163
+        ],
+        "legitimateRepeat": [
+          409,
+          66,
+          45
+        ],
+        "negative": [
+          7043,
+          85,
+          342
+        ],
+        "positive": [
+          757,
+          270,
+          405
+        ],
+        "duplicate": [
+          249,
+          84,
+          163
+        ],
+        "inflated": [
+          260,
+          62,
+          100
+        ],
+        "combined": [
+          248,
+          124,
+          142
+        ]
+      }
+    },
+    {
+      "cohort": "repeatStress",
+      "seed": 41020,
+      "profile": "stress",
+      "unresolved": 0,
+      "counts": {
+        "trueRebill": [
+          249,
+          84,
+          96
+        ],
+        "legitimateRepeat": [
+          409,
+          66,
+          64
+        ],
+        "negative": [
+          7043,
+          85,
+          627
+        ],
+        "positive": [
+          757,
+          270,
+          346
+        ],
+        "duplicate": [
+          249,
+          84,
+          96
+        ],
+        "inflated": [
+          260,
+          62,
+          103
+        ],
+        "combined": [
+          248,
+          124,
+          147
+        ]
+      }
+    }
+  ],
+  "summary": [
+    {
+      "cohort": "primary",
+      "profile": "correct",
+      "endpoint": "trueRebill",
+      "n": 5500,
+      "comparatorAlerts": 3287,
+      "workerAlerts": 5500,
+      "comparatorRate": 59.763636363636365,
+      "workerRate": 100,
+      "difference": 40.236363636363635,
+      "validDraws": 10000,
+      "interval": [
+        39.102408061539194,
+        41.413078588853054
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "correct",
+      "endpoint": "legitimateRepeat",
+      "n": 7880,
+      "comparatorAlerts": 617,
+      "workerAlerts": 241,
+      "comparatorRate": 7.82994923857868,
+      "workerRate": 3.0583756345177666,
+      "difference": -4.771573604060913,
+      "validDraws": 10000,
+      "interval": [
+        -5.228603442923554,
+        -4.317371370351503
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "correct",
+      "endpoint": "negative",
+      "n": 140460,
+      "comparatorAlerts": 1120,
+      "workerAlerts": 1351,
+      "comparatorRate": 7.97380037021216,
+      "workerRate": 9.618396696568418,
+      "difference": 1.644596326356258,
+      "validDraws": 10000,
+      "interval": [
+        1.2105897410047988,
+        2.1190512125994467
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "correct",
+      "endpoint": "positive",
+      "n": 15540,
+      "comparatorAlerts": 7099,
+      "workerAlerts": 10011,
+      "comparatorRate": 45.68211068211068,
+      "workerRate": 64.42084942084942,
+      "difference": 18.73873873873874,
+      "validDraws": 10000,
+      "interval": [
+        18.103545717218157,
+        19.41604613280979
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "correct",
+      "endpoint": "duplicate",
+      "n": 5500,
+      "comparatorAlerts": 3287,
+      "workerAlerts": 5500,
+      "comparatorRate": 59.763636363636365,
+      "workerRate": 100,
+      "difference": 40.236363636363635,
+      "validDraws": 10000,
+      "interval": [
+        39.102408061539194,
+        41.413078588853054
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "correct",
+      "endpoint": "inflated",
+      "n": 5365,
+      "comparatorAlerts": 1484,
+      "workerAlerts": 1938,
+      "comparatorRate": 27.66076421248835,
+      "workerRate": 36.12301957129543,
+      "difference": 8.462255358807083,
+      "validDraws": 10000,
+      "interval": [
+        7.686646745471638,
+        9.276271710340673
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "correct",
+      "endpoint": "combined",
+      "n": 4675,
+      "comparatorAlerts": 2328,
+      "workerAlerts": 2573,
+      "comparatorRate": 49.79679144385027,
+      "workerRate": 55.037433155080215,
+      "difference": 5.240641711229946,
+      "validDraws": 10000,
+      "interval": [
+        4.405377210687558,
+        6.082261628925797
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "mixed",
+      "endpoint": "trueRebill",
+      "n": 5500,
+      "comparatorAlerts": 3287,
+      "workerAlerts": 4061,
+      "comparatorRate": 59.763636363636365,
+      "workerRate": 73.83636363636364,
+      "difference": 14.072727272727272,
+      "validDraws": 10000,
+      "interval": [
+        12.795766459878175,
+        15.345463714959392
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "mixed",
+      "endpoint": "legitimateRepeat",
+      "n": 7880,
+      "comparatorAlerts": 617,
+      "workerAlerts": 608,
+      "comparatorRate": 7.82994923857868,
+      "workerRate": 7.715736040609137,
+      "difference": -0.11421319796954314,
+      "validDraws": 10000,
+      "interval": [
+        -0.6536029904919715,
+        0.4810355345432359
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "mixed",
+      "endpoint": "negative",
+      "n": 140460,
+      "comparatorAlerts": 1120,
+      "workerAlerts": 6833,
+      "comparatorRate": 7.97380037021216,
+      "workerRate": 48.647301722910434,
+      "difference": 40.673501352698274,
+      "validDraws": 10000,
+      "interval": [
+        39.78947114443607,
+        41.572957937794044
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "mixed",
+      "endpoint": "positive",
+      "n": 15540,
+      "comparatorAlerts": 7099,
+      "workerAlerts": 8757,
+      "comparatorRate": 45.68211068211068,
+      "workerRate": 56.351351351351354,
+      "difference": 10.669240669240668,
+      "validDraws": 10000,
+      "interval": [
+        9.966494278104735,
+        11.373603034686246
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "mixed",
+      "endpoint": "duplicate",
+      "n": 5500,
+      "comparatorAlerts": 3287,
+      "workerAlerts": 4061,
+      "comparatorRate": 59.763636363636365,
+      "workerRate": 73.83636363636364,
+      "difference": 14.072727272727272,
+      "validDraws": 10000,
+      "interval": [
+        12.795766459878175,
+        15.345463714959392
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "mixed",
+      "endpoint": "inflated",
+      "n": 5365,
+      "comparatorAlerts": 1484,
+      "workerAlerts": 2048,
+      "comparatorRate": 27.66076421248835,
+      "workerRate": 38.17334575955265,
+      "difference": 10.512581547064306,
+      "validDraws": 10000,
+      "interval": [
+        9.722722644914795,
+        11.293373271536549
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "mixed",
+      "endpoint": "combined",
+      "n": 4675,
+      "comparatorAlerts": 2328,
+      "workerAlerts": 2648,
+      "comparatorRate": 49.79679144385027,
+      "workerRate": 56.64171122994652,
+      "difference": 6.8449197860962565,
+      "validDraws": 10000,
+      "interval": [
+        5.947085070587375,
+        7.749039678867683
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "stress",
+      "endpoint": "trueRebill",
+      "n": 5500,
+      "comparatorAlerts": 3287,
+      "workerAlerts": 2950,
+      "comparatorRate": 59.763636363636365,
+      "workerRate": 53.63636363636363,
+      "difference": -6.127272727272727,
+      "validDraws": 10000,
+      "interval": [
+        -7.41140080749497,
+        -4.87276466503808
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "stress",
+      "endpoint": "legitimateRepeat",
+      "n": 7880,
+      "comparatorAlerts": 617,
+      "workerAlerts": 1042,
+      "comparatorRate": 7.82994923857868,
+      "workerRate": 13.223350253807107,
+      "difference": 5.393401015228426,
+      "validDraws": 10000,
+      "interval": [
+        4.668506913816198,
+        6.1579870351844495
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "stress",
+      "endpoint": "negative",
+      "n": 140460,
+      "comparatorAlerts": 1120,
+      "workerAlerts": 12457,
+      "comparatorRate": 7.97380037021216,
+      "workerRate": 88.6871707247615,
+      "difference": 80.71337035454934,
+      "validDraws": 10000,
+      "interval": [
+        79.43125229092193,
+        82.0376999169303
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "stress",
+      "endpoint": "positive",
+      "n": 15540,
+      "comparatorAlerts": 7099,
+      "workerAlerts": 7921,
+      "comparatorRate": 45.68211068211068,
+      "workerRate": 50.97168597168597,
+      "difference": 5.289575289575289,
+      "validDraws": 10000,
+      "interval": [
+        4.6537982119953964,
+        5.9096879078399835
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "stress",
+      "endpoint": "duplicate",
+      "n": 5500,
+      "comparatorAlerts": 3287,
+      "workerAlerts": 2950,
+      "comparatorRate": 59.763636363636365,
+      "workerRate": 53.63636363636363,
+      "difference": -6.127272727272727,
+      "validDraws": 10000,
+      "interval": [
+        -7.41140080749497,
+        -4.87276466503808
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "stress",
+      "endpoint": "inflated",
+      "n": 5365,
+      "comparatorAlerts": 1484,
+      "workerAlerts": 2232,
+      "comparatorRate": 27.66076421248835,
+      "workerRate": 41.60298229263746,
+      "difference": 13.942218080149114,
+      "validDraws": 10000,
+      "interval": [
+        13.02350354307316,
+        14.941448652858869
+      ]
+    },
+    {
+      "cohort": "primary",
+      "profile": "stress",
+      "endpoint": "combined",
+      "n": 4675,
+      "comparatorAlerts": 2328,
+      "workerAlerts": 2739,
+      "comparatorRate": 49.79679144385027,
+      "workerRate": 58.588235294117645,
+      "difference": 8.79144385026738,
+      "validDraws": 10000,
+      "interval": [
+        7.830783185070532,
+        9.734711832145544
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "correct",
+      "endpoint": "trueRebill",
+      "n": 5613,
+      "comparatorAlerts": 1958,
+      "workerAlerts": 5613,
+      "comparatorRate": 34.88330660965615,
+      "workerRate": 100,
+      "difference": 65.11669339034384,
+      "validDraws": 10000,
+      "interval": [
+        64.21854230721695,
+        66.04255213238362
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "correct",
+      "endpoint": "legitimateRepeat",
+      "n": 7795,
+      "comparatorAlerts": 1381,
+      "workerAlerts": 220,
+      "comparatorRate": 17.716484926234767,
+      "workerRate": 2.8223220012828736,
+      "difference": -14.894162924951893,
+      "validDraws": 10000,
+      "interval": [
+        -15.712068408002166,
+        -14.12363261022455
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "correct",
+      "endpoint": "negative",
+      "n": 140351,
+      "comparatorAlerts": 1895,
+      "workerAlerts": 1316,
+      "comparatorRate": 13.501863185869713,
+      "workerRate": 9.37649179556968,
+      "difference": -4.1253713903000335,
+      "validDraws": 10000,
+      "interval": [
+        -4.7181813779029875,
+        -3.5507500077672485
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "correct",
+      "endpoint": "positive",
+      "n": 15649,
+      "comparatorAlerts": 5844,
+      "workerAlerts": 10240,
+      "comparatorRate": 37.344239248514285,
+      "workerRate": 65.43549108569238,
+      "difference": 28.091251837178095,
+      "validDraws": 10000,
+      "interval": [
+        27.262845566240895,
+        28.96089167567802
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "correct",
+      "endpoint": "duplicate",
+      "n": 5613,
+      "comparatorAlerts": 1958,
+      "workerAlerts": 5613,
+      "comparatorRate": 34.88330660965615,
+      "workerRate": 100,
+      "difference": 65.11669339034384,
+      "validDraws": 10000,
+      "interval": [
+        64.21854230721695,
+        66.04255213238362
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "correct",
+      "endpoint": "inflated",
+      "n": 5438,
+      "comparatorAlerts": 1525,
+      "workerAlerts": 2031,
+      "comparatorRate": 28.043398308201546,
+      "workerRate": 37.34828981243104,
+      "difference": 9.304891504229497,
+      "validDraws": 10000,
+      "interval": [
+        8.292479682024712,
+        10.237891451686355
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "correct",
+      "endpoint": "combined",
+      "n": 4598,
+      "comparatorAlerts": 2361,
+      "workerAlerts": 2596,
+      "comparatorRate": 51.34841235319704,
+      "workerRate": 56.45933014354067,
+      "difference": 5.110917790343628,
+      "validDraws": 10000,
+      "interval": [
+        4.017735755458378,
+        6.1866890084988215
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "mixed",
+      "endpoint": "trueRebill",
+      "n": 5613,
+      "comparatorAlerts": 1958,
+      "workerAlerts": 3868,
+      "comparatorRate": 34.88330660965615,
+      "workerRate": 68.91145554961696,
+      "difference": 34.02814893996081,
+      "validDraws": 10000,
+      "interval": [
+        32.63832761755779,
+        35.33915242948702
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "mixed",
+      "endpoint": "legitimateRepeat",
+      "n": 7795,
+      "comparatorAlerts": 1381,
+      "workerAlerts": 737,
+      "comparatorRate": 17.716484926234767,
+      "workerRate": 9.454778704297627,
+      "difference": -8.261706221937139,
+      "validDraws": 10000,
+      "interval": [
+        -9.406770689077806,
+        -7.339494964253831
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "mixed",
+      "endpoint": "negative",
+      "n": 140351,
+      "comparatorAlerts": 1895,
+      "workerAlerts": 6892,
+      "comparatorRate": 13.501863185869713,
+      "workerRate": 49.1054570327251,
+      "difference": 35.60359384685538,
+      "validDraws": 10000,
+      "interval": [
+        34.594552222497725,
+        36.47572616498719
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "mixed",
+      "endpoint": "positive",
+      "n": 15649,
+      "comparatorAlerts": 5844,
+      "workerAlerts": 8683,
+      "comparatorRate": 37.344239248514285,
+      "workerRate": 55.48597354463544,
+      "difference": 18.141734296121157,
+      "validDraws": 10000,
+      "interval": [
+        17.47349204714262,
+        18.82489762893021
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "mixed",
+      "endpoint": "duplicate",
+      "n": 5613,
+      "comparatorAlerts": 1958,
+      "workerAlerts": 3868,
+      "comparatorRate": 34.88330660965615,
+      "workerRate": 68.91145554961696,
+      "difference": 34.02814893996081,
+      "validDraws": 10000,
+      "interval": [
+        32.63832761755779,
+        35.33915242948702
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "mixed",
+      "endpoint": "inflated",
+      "n": 5438,
+      "comparatorAlerts": 1525,
+      "workerAlerts": 2148,
+      "comparatorRate": 28.043398308201546,
+      "workerRate": 39.499816108863556,
+      "difference": 11.456417800662008,
+      "validDraws": 10000,
+      "interval": [
+        10.388097326106871,
+        12.456384880885881
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "mixed",
+      "endpoint": "combined",
+      "n": 4598,
+      "comparatorAlerts": 2361,
+      "workerAlerts": 2667,
+      "comparatorRate": 51.34841235319704,
+      "workerRate": 58.0034797738147,
+      "difference": 6.65506742061766,
+      "validDraws": 10000,
+      "interval": [
+        5.598734660043841,
+        7.7761141900443995
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "stress",
+      "endpoint": "trueRebill",
+      "n": 5613,
+      "comparatorAlerts": 1958,
+      "workerAlerts": 2499,
+      "comparatorRate": 34.88330660965615,
+      "workerRate": 44.52164617851416,
+      "difference": 9.638339568858008,
+      "validDraws": 10000,
+      "interval": [
+        8.616973442522578,
+        10.738741838542635
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "stress",
+      "endpoint": "legitimateRepeat",
+      "n": 7795,
+      "comparatorAlerts": 1381,
+      "workerAlerts": 1311,
+      "comparatorRate": 17.716484926234767,
+      "workerRate": 16.818473380372033,
+      "difference": -0.8980115458627326,
+      "validDraws": 10000,
+      "interval": [
+        -1.6517920976953586,
+        -0.23877073437017693
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "stress",
+      "endpoint": "negative",
+      "n": 140351,
+      "comparatorAlerts": 1895,
+      "workerAlerts": 12863,
+      "comparatorRate": 13.501863185869713,
+      "workerRate": 91.64879480730454,
+      "difference": 78.14693162143483,
+      "validDraws": 10000,
+      "interval": [
+        76.96961860522622,
+        79.25539457312152
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "stress",
+      "endpoint": "positive",
+      "n": 15649,
+      "comparatorAlerts": 5844,
+      "workerAlerts": 7548,
+      "comparatorRate": 37.344239248514285,
+      "workerRate": 48.23311393699278,
+      "difference": 10.888874688478497,
+      "validDraws": 10000,
+      "interval": [
+        10.335075175751074,
+        11.502158378142711
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "stress",
+      "endpoint": "duplicate",
+      "n": 5613,
+      "comparatorAlerts": 1958,
+      "workerAlerts": 2499,
+      "comparatorRate": 34.88330660965615,
+      "workerRate": 44.52164617851416,
+      "difference": 9.638339568858008,
+      "validDraws": 10000,
+      "interval": [
+        8.616973442522578,
+        10.738741838542635
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "stress",
+      "endpoint": "inflated",
+      "n": 5438,
+      "comparatorAlerts": 1525,
+      "workerAlerts": 2295,
+      "comparatorRate": 28.043398308201546,
+      "workerRate": 42.20301581463774,
+      "difference": 14.15961750643619,
+      "validDraws": 10000,
+      "interval": [
+        13.105562427576473,
+        15.152669763619631
+      ]
+    },
+    {
+      "cohort": "repeatStress",
+      "profile": "stress",
+      "endpoint": "combined",
+      "n": 4598,
+      "comparatorAlerts": 2361,
+      "workerAlerts": 2754,
+      "comparatorRate": 51.34841235319704,
+      "workerRate": 59.89560678555894,
+      "difference": 8.547194432361897,
+      "validDraws": 10000,
+      "interval": [
+        7.295641829911143,
+        9.79548777727796
+      ]
+    }
+  ]
+}
