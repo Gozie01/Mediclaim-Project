@@ -1,0 +1,114 @@
+{
+  "schema": "mediclaim.verifier_equivalence.v1",
+  "date_utc": "2026-11-27",
+  "assessment": "PASS_WITH_LIMITATIONS",
+  "network": {
+    "name": "PureChain",
+    "chain_id": "900520900520",
+    "genesis_hash": "0xafafa8c09261b056bcf4224d1b0eb87e38ec57f0f6ab36cfc0ca6548f31a576e"
+  },
+  "evidence_zip": {
+    "name": "MediClaim_Verifier_Equivalence_20261127T111555807Z.zip",
+    "sha256": "67475dda6c999cd5df55602d472a46ccdde5b9b14a30cdd374a3ce6d35d09902",
+    "committed_to_repo": false
+  },
+  "preserved_artifact": {
+    "path": "artifacts/contracts/ClaimConsentFixtureVerifier.generated.sol/Groth16Verifier.json",
+    "sha256": "4445eac761539bf932d11bbc7809656c6ccd7198dafaa3e7d4d80ffce7f81e7a",
+    "committed_to_repo": false
+  },
+  "runtime": {
+    "bytes": 1768,
+    "keccak256": "0x211e6d35a13624499914b81b540b169b686d25d09eabf159fb180a4d78c1b94e"
+  },
+  "checks": {
+    "deployment_receipts": {
+      "passed": 8,
+      "total": 8
+    },
+    "deployment_addresses": {
+      "passed": 8,
+      "total": 8
+    },
+    "exact_runtime_bytecode": {
+      "passed": 4,
+      "total": 4,
+      "blocks": [
+        1948559,
+        1948716,
+        1949639,
+        1975957
+      ]
+    },
+    "historic_configured_verifier": {
+      "passed": 3,
+      "total": 3,
+      "blocks": [
+        1948716,
+        1949639,
+        1975957
+      ]
+    },
+    "approval_block_runtime_hash": {
+      "passed": 3,
+      "total": 3,
+      "blocks": [
+        1949281,
+        1949459,
+        1949579
+      ]
+    },
+    "historical_consent_approvals": {
+      "passed": 3,
+      "total": 3,
+      "blocks": [
+        1949281,
+        1949459,
+        1949579
+      ]
+    },
+    "approval_verifier_binding_boundaries": {
+      "passed": 6,
+      "total": 6
+    },
+    "functional": {
+      "passed": 18,
+      "total": 18,
+      "unique_input_vectors": 6,
+      "environments": 3,
+      "valid_proof_accepted": 3,
+      "altered_inputs_rejected": 15
+    },
+    "claim_002_identifier_reconciliation": "PASS",
+    "claim_003_identifier_reconciliation": "PASS"
+  },
+  "functional_protocol": {
+    "source_proof": "archived synthetic circuit-pilot proof (not historical Claim 003 approval proof)",
+    "alterations": 5,
+    "mutation": "increment exactly one public input by 1 mod BN254 scalar field; keep proof coordinates and remaining public inputs unchanged",
+    "environments": [
+      "ephemeral local Hardhat deployed from preserved compiler artifact",
+      "historical PureChain block 1949639",
+      "PureChain snapshot block 1975957"
+    ],
+    "script_sha256": "11eefb37b8589161fc7d35ca195de545a3c890da83048aa70491e1ab439f49c9",
+    "report_sha256": "0fa778dcd9ac9ade0c03151965484bc48d574e21759bcb2c2fc74c81617c72f7"
+  },
+  "test_anomaly": {
+    "observed": true,
+    "details": "Windows libuv assertion during process shutdown after evidence file creation",
+    "root_cause_confirmed": false,
+    "clean_exit": false,
+    "independent_saved_report_validation": "PASS"
+  },
+  "limitations": [
+    "exact historical Hardhat test-run binary provenance not independently authenticated",
+    "patient-exclusive custody unverified",
+    "production-grade trusted setup security unverified",
+    "block-boundary reads not transaction-level tracing",
+    "one historical approval not reconciled to a named pilot claim",
+    "Claim 003 settlement not independently revalidated in this verification phase",
+    "functional verifier calls do not establish claim-level authorization, replay or expiry enforcement",
+    "concurrent throughput and operational settlement latency unmeasured"
+  ]
+}
