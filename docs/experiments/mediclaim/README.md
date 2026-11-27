@@ -14,7 +14,15 @@ were retrieved from the network and checked against the manifest.
 | [Draft B](receipts/draft-b.json) and [approval B](receipts/approval-b.json) | A distinct 500-base-unit claim with the same submitted billing line entered oracle review second. The shadow worker recorded `REVIEW` with `REPEATED_BILLING_LINE`, one prior observation, and zero claim or treatment reference matches. |
 
 The [two shadow decisions](duplicate-billing-evidence.jsonl) were transcribed
-from worker output. The worker submitted no on-chain score for A or B. The live pilots establish passing-score settlement and off-chain detection of one repeated line. Withholding payment after an accepted adverse score was tested locally. Patient-exclusive custody of the consent secret and an independent match between the deployed verifier and the inspected fixture remain unverified.
+from worker output. The worker submitted no on-chain score for A or B. The live pilots establish passing-score settlement and off-chain detection of one repeated line. Withholding payment after an accepted adverse score was tested locally. A subsequent [27 November verifier-equivalence investigation](verifier-equivalence.md) established an exact match between deployed runtime bytecode and the **preserved local compiled verifier artifact** at four historical blocks. It did not independently authenticate the exact original Hardhat test-run binary, patient-exclusive consent-secret custody, or production-grade trusted setup.
+
+## Deployed-verifier equivalence and historical consent approvals (27 November 2026)
+
+[Full evidence register and limitations](verifier-equivalence.md) · [Machine-readable summary](verifier-equivalence-results.json)
+
+The follow-up investigation recovered eight successful deployment receipts, matched exact deployed runtime bytecode against the preserved local artifact at **four** historical blocks, and confirmed configured-verifier binding at **three** checkpoints. Three additional approval-block runtime **hashes** matched (not three further whole-byte comparisons). All **three** recovered on-chain consent approvals had matching transaction/event claim identifiers; verifier bindings were consistent at the six before/at-block boundaries. The archived **synthetic** proof passed in three environments, and five independently mutated public-input vectors were rejected in each, giving **18/18** expected functional outcomes from six distinct vectors. Claim 002 and Claim 003 IDs matched their archived records.
+
+The original functional Node.js process encountered a Windows libuv shutdown assertion *after* saving its evidence; an independent process validated the complete saved report and evidence fingerprints. The complete source ZIP, checksum, limitations, and provenance distinctions are documented in the evidence register; the ZIP itself is **not yet included** in this GitHub branch. The original 28 Hardhat tests are separate from the 18 verifier checks.
 
 ## Local Hardhat settlement checks
 
